@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+<body>
+    <nav class="navbar">
+        <div>
+            <img class="logo" src="./assets/logo.svg" alt="">
+        </div>
+        <div>
+            <ul class="unorder-list">
+                <li>home</li>
+                <li>about</li>
+                <li>service</li>
+                <li>blog</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <div class="left-navbar-item">
+            <i class="fa-solid fa-bag-shopping icon-navbar"></i>
+            <i class="fa-solid fa-magnifying-glass icon-navbar"></i>
+            <button class="navbar-button">appionment</button>
+        </div>
+    </nav>
+    <!---------------
+         header start
+        ----------------------->
+    <header class="header">
+        <div class="header-carosel">
+            <div class="mySlides">
+                <div class="content img-1">
+                    <h1>Affordable <br> Price For Car <br> Servicing</h1>
+                    <p>There are many variations of passages of  available, but <br> the majority have suffered alteration in some form</p>
+                    <div class="">
+                        <button class="button-color">Discover More</button>
+                        <button class="button">Latest Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides">
+                <div class="content img-2">
+                    <h1>Affordable <br> Price For Car <br> Servicing</h1>
+                    <p>There are many variations of passages of  available, but <br> the majority have suffered alteration in some form</p>
+                    <div class="">
+                        <button class="button-color">Discover More</button>
+                        <button class="button">Latest Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides">
+                <div class="content img-3">
+                    <h1>Affordable <br> Price For Car <br> Servicing</h1>
+                    <p>There are many variations of passages of  available, but <br> the majority have suffered alteration in some form</p>
+                    <div class="">
+                        <button class="button-color">Discover More</button>
+                        <button class="button">Latest Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="click-toggle-parent">
+            <div class="click-toggle">
+                <h3 onclick="leftButtonFunc(-1)"><i class="fa-solid fa-arrow-left" style="color: #fcfcfc;"></i></h3>
+                <h3 onclick="rightButtonFunc(1)"><i class="fa-solid fa-arrow-right" style="color: #fcfcfc;"></i></h3>
+            </div>
+        </div>
+        <div class="round-button-section">
+            <div class="round-button-parents">
+                <button onclick="buttonClickFunc(3)" class="rounded-button"></button>
+                <button onclick="buttonClickFunc(1)" class="rounded-button"></button>
+                <button onclick="buttonClickFunc(2)" class="rounded-button"></button>
+            </div>
+        </div>
+    </header>
+    <!--------------------
+         main start 
+        -------------------------->
+    <main id="main" class="main">
+        <!------------------------
+             about start 
+            ------------------------->
+        <section class="about">
+            <div class="about-left">
+                <img class="about-image" src="./assets/images/about_us/parts.jpg" alt="">
+               <div class="about-bg-image"></div>
+            </div>
+            <div class="about-right">
+                <h4>about us</h4>
+                <h2 class="headline">We are qualified <br> & of experience <br> in this field</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <div>
+                    <button class="button-color">Get More Info</button>
+                </div>
+            </div>
+        </section>
+        <!-- --------------
+            service start
+        ------------------------------- -->
+        <section>
+            <div>
+                <h4>service</h4>
+                <h2>Our Service Area</h2>
+                <p>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <div id="card" class="cards">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/39bccf9214.js" crossorigin="anonymous"></script>
+</body>
+</html>

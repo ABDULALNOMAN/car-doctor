@@ -1,0 +1,26 @@
+[
+    {   "image":"../assets/images/banner/1.jpg",
+        "heading":"Engine Diagnostics",
+        "price":"$20.00"
+    },
+    {   "image":"../assets/images/banner/2.jpg",
+        "heading":"Engine Diagnostics",
+        "price":"$20.00"
+    },
+    {   "image":"../assets/images/services/3.jpg",
+        "heading":"Auto Car Repair",
+        "price":"$20.00"
+    },
+    {   "image":"../assets/images/services/4.jpg",
+        "heading":"Electrical System",
+        "price":"$20.00"
+    },
+    {   "image":"../assets/images/services/5.jpg",
+        "heading":"Engine Diagnostics",
+        "price":"$20.00"
+    },
+    {   "image":"../assets/images/services/6.jpg",
+        "heading":"Auto Car Repair",
+        "price":"$20.00"
+    }
+]
