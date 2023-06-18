@@ -201,10 +201,34 @@ about start
 .card-image{
     width: 100%;
 }
-/* @media screen and (max-width:750px){
-    .click-toggle-parent{
-        display: none;
+@keyframes imagin {
+    10%{transform: scale(1);}
+    20%{transform: scale(0.9);}
+    30%{transform: scale(0.8);}
+    40%{transform: scale(0.7);}
+    50%{transform: scale(0.6);}
+    60%{transform: scale(0.6);}
+    70%{transform: scale(0.7);}
+    80%{transform: scale(0.8);}
+    90%{transform: scale(0.9);}
+    100%{transform: scale(1);}
+}
+.card-image:hover{
+    animation-name:imagin;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 250ms;
+    animation-iteration-count: infinite;
+}
+@media screen and (max-width:750px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
     }
-} */
+}
+@media screen and (max-width:340px) {
+    .cards{
+        grid-template-columns:1fr;
+    }
+}
 
 
