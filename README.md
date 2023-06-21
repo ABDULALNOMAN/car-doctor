@@ -1,1 +1,1 @@
-### This Web Application design by HTML, raw CSS, raw JavaScript
+### This Web Application design by HTML, raw CSS, vanilla JavaScript

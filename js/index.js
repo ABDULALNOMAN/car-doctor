@@ -49,7 +49,7 @@ function itemFunc(datas){
         div.innerHTML =`
                 <img class="card-image" src=${data?.image} alt="image">
                 <h1>name :${data?.heading}</h1>
-                <p>price :${data?.price}</p>
+                <p>price :${data?.price}</p> 
         `
         card.appendChild(div)
     }
